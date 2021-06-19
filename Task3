@@ -1,0 +1,18 @@
+package com.max.idea;
+
+public class Array {
+    public static void main(String[] args) {
+        int[] myArray = {5, 10, 15, 20, 25};
+        int lastElement = myArray[myArray.length-1];
+        myArray[myArray.length-1] = myArray[0];
+        myArray[0] = lastElement;
+        int middleElement = myArray[myArray.length-3];
+        myArray[3] = middleElement;
+        System.out.println(myArray[0]);
+        System.out.println(myArray[myArray.length - 1]);
+        System.out.println(myArray[3]);
+        System.out.println("Сумма первого и среднего элемента массива: " +(myArray[0]+myArray[3]));
+    }
+}
+    
+    
