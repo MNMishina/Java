@@ -6,7 +6,7 @@ public class Data2 {
         System.out.println("Напишите: I like Java!!!");
         String str = scanner.nextLine();
         scanner.close();
-        boolean result, result1, result2;
+        boolean result, result1, result2;    //test
         result = str.contains("Java");
         result1 = str.startsWith("I like");
         result2 = str.endsWith("!!!");
