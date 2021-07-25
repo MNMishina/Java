@@ -6,7 +6,7 @@ public class Data2 {
         System.out.println("Напишите: I like Java!!!");
         String str = scanner.nextLine();
         scanner.close();
-        boolean result, result1, result2;    //test
+        boolean result, result1, result2;
         result = str.contains("Java");
         result1 = str.startsWith("I like");
         result2 = str.endsWith("!!!");
@@ -22,3 +22,18 @@ public class Data2 {
 }
 }
 
+/*
+Задача №12_Работа с данными
+Напишите программу, принимающую на вход строку “I like Java!!!”, которая будет выполнять следующие действия:
+
+
+Проверить, содержит ли строка подстроку “Java” (используйте contains()).
+
+Проверить, начинается ли строка с подстроки “I like” (используйте startsWith()).
+
+Проверить, заканчивается ли строка с подставки “!!!” (используйте endsWith()).
+
+Если 3 предыдущих условия верны, выведите данную строку, преобразованную к верхнему регистру.
+
+Замените все символы ‘a’ на ‘о’ и введите подстроку “Jovo” на экран  (используйте substring()).
+ */
