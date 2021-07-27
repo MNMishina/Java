@@ -71,6 +71,8 @@ public class Converter {
                 case 4:
                     System.out.println("Результат:\nМетры:" + number / 3.2808 + "\nМили:" + number * 0.0002 + "\nЯрды:" + number * 0.33 + "\nФуты:" + number);
                     break;
+                default:
+                    break;
             }
         }
     }
