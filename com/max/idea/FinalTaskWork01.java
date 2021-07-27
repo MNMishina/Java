@@ -17,9 +17,7 @@ public class FinalTaskWork01 {
         int sum = scanner.nextInt();
         scanner.close();
         double result = sum / exRate;
-        System.out.print("Итого: ");
-        System.out.printf("%.2f", result);
-        System.out.print(" долларов");
+        System.out.printf("Итого: %.2f долларов", result);
     }
     }
 
