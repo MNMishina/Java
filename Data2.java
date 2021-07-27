@@ -21,7 +21,7 @@ public class Data2 {
         result1 = str.startsWith("I like");
         result2 = str.endsWith("!!!");
 
-        if(result==true && result1==true && result2==true){
+        if(result && result1 && result2){
             String str1 = str.toUpperCase();
             System.out.println(str1);
         }else{
