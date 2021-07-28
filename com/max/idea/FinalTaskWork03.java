@@ -30,15 +30,17 @@ public class FinalTaskWork03 {
             if (currentDf > maxDf) {
                 maxDf = currentDf; //Работает на получение строки с максимальным количеством различных символов
                 indexDf = i;
-            } else if (currentDf == maxDf) {
+            /*} else if (currentDf == maxDf) {
                 //Ничего не делает
             } else if (currentDf < maxDf) {
                 //Ничего не делает
+            }*/
             }
         }
-        System.out.print("Ответ: " + array[indexDf]);  //Вывод строки с максимальным количеством различных символов
+            System.out.print("Ответ: " + array[indexDf]);  //Вывод строки с максимальным количеством различных символов
+        }
     }
-}
+
 
 
 
